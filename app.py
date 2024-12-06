@@ -39,8 +39,8 @@ from typing import Optional
 app = FastAPI()
 
 # 전역 폰트와 템플릿 이미지 객체
-font_path = "Pretendard-Bold.ttf"
-template_path = "template.png"
+font_path = "static/Pretendard-Bold.ttf"
+template_path = "static/template.png"
 namefontObj = None
 numfontObj = None
 template_img = None
